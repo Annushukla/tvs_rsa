@@ -1,0 +1,27 @@
+body{
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+	background-image: url("../../common/img/bg-1.png");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.btn-blue{
+	    background: #61d4d7;
+}
+.btn-blue:hover{
+	    background: lightblue; color: #333;
+}
+.bg-white{
+	background-color: white;
+}
+.marT15{
+	margin-top: 15%;
+	margin-bottom: 18%;
+}
+.login{
+	    padding: 10px;
+    border-radius: 20px;    box-shadow: 3px 3px 5px rgba(21, 95, 97, 0.7);
+}

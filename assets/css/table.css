@@ -1,0 +1,146 @@
+ 
+/*tables css*/
+ #no-more-tables table{
+     background-color: aliceblue;
+     color: #1b8182;
+     border-radius: 7px;
+}
+ .table-bordered>thead>tr>td, .table-bordered>thead>tr>th{
+     padding: 10px!important;
+     border-radius: 7px;
+     padding-bottom: 0px;
+}
+ @media only screen and (max-width: 800px) {
+    /* Force table to not be like tables anymore */
+     #no-more-tables table, #no-more-tables thead, #no-more-tables tbody, #no-more-tables th, #no-more-tables td, #no-more-tables tr {
+         display: block;
+         font-family: "Roboto-Light";
+         font-weight: lighter;
+    }
+    /* Hide table headers (but not display: none;
+    , for accessibility) */
+     #no-more-tables thead tr {
+         position: absolute;
+         top: -9999px;
+         left: -9999px;
+    }
+     #no-more-tables tr {
+         border: 1px solid #ff0000;
+    }
+     #no-more-tables td {
+        /* Behave like a "row" */
+         border: none;
+         border-bottom: 1px solid #eee;
+         position: relative;
+         padding-left: 50%;
+         white-space: normal;
+         text-align:left;
+    }
+     #no-more-tables td:before {
+        /* Now like a table header */
+         position: absolute;
+        /* Top/left values mimic padding */
+         top: 6px;
+         left: 6px;
+         width: 45%;
+         padding-right: 10px;
+         white-space: nowrap;
+         text-align:left;
+         font-weight: bold;
+    }
+    /* Label the data */
+     #no-more-tables td:before {
+         content: attr(data-title);
+    }
+}
+/*table css*/
+#no-more-tables{
+       height: 600px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+       /*width: 630px;*/
+  }
+ #fixed-head-side thead th:first-child {
+        z-index: 11;
+        position: sticky;
+    position: -webkit-sticky;
+
+  }
+  #fixed-head-side thead th {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 10; left: 0;
+}
+
+#fixed-head-side tbody tr td:nth-child(1) {  /*the first cell in each tr*/
+  position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 10;left: 0;
+}
+ .table-striped>tbody>tr:nth-of-type(odd){
+     background-color: transparent;
+}
+ .table-bordered {
+     /*border: 1px solid transparent;*/
+     margin-bottom: 20px;
+}
+ #no-more-tables table {
+     border-collapse: separate;
+     border-radius: 10px;
+     background-color: transparent;
+     border:none;
+}
+ #no-more-tables table th{
+     border-spacing: 30px;
+}
+ .table-bordered>thead>tr>th{
+     /*border: 1px solid #b4d4f7;*/
+}
+ .table-striped>tbody>tr>td {
+     /*border: 1px solid #388bdb;*/
+     text-align: center;
+     border-radius: 8px;
+     background-color:#fff;
+}
+ #no-more-tables .table-bordered>tbody>tr>td:first-child{
+     background-color: #4992db;
+     color: #fff;text-align: left;
+     border-radius: 6px;
+     font-size: 16px;
+}
+ #no-more-tables th:first-child{
+     background-color: #4992db;
+     color: #fff;
+     font-family: "Roboto-Light";
+     font-weight: lighter;
+     border-radius: 6px;
+     font-size: 16px;
+}
+ #no-more-tables th{
+     background-color: rgba(120, 156, 215, 0.6);
+     color: #1e2b40;
+     text-align: center;
+     font-weight: bold;
+    font-family: "Roboto-Medium";
+     text-shadow: none;
+     font-size: 13px;
+}
+/* .table-bordered>tbody>tr>td{
+     border: 1px solid #ff0000;
+}
+*/
+ .text-green{
+     color: #417f3a;
+}
+ .text-red{
+     color: #a22224;
+}
+#no-more-tables tbody:before {
+    /* This doesn't work because of border-collapse */
+     content:"_";
+     color:white;
+     display:block;
+}
+ 

@@ -1,0 +1,48 @@
+body{
+  font-family: arial;
+  font-weight: lighter;
+}
+
+/*td{
+    text-transform: capitalize;
+}*/
+
+.col-md-6{
+    width: 47%;
+    float: left;
+    margin-left: 5px;
+}
+
+.col-md-12{
+	width: 94%;
+	float: left;
+	margin-left: 5px;
+}
+
+#policy_receipt table{
+    font-weight: lighter;
+}
+
+#policy_recipt td {
+    border: 1px solid #000;
+    background: #fff;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.table_header{
+    padding: 3px 8px;
+    color:white;
+    font-size:12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.divider{
+	height: 5px;
+	background: #014e9f;
+}
+
+.desc_text{
+    font-size: 8px;
+}

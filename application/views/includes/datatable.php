@@ -1,0 +1,2 @@
+<link rel="stylesheet" type="text/css" href="<?php echo base_url();?>assets/plugin/datatables/data_tables.css">
+<script type="text/javascript" src="<?php echo base_url();?>assets/plugin/datatables/data_tables.js"></script>

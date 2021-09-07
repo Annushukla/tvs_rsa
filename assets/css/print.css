@@ -1,0 +1,65 @@
+page { display:block; margin:0 auto;}
+page[size="A4"] {  
+  width: 21cm;
+  height: 29.7cm; 
+}
+@media screen, print {
+	body {
+		font: 14px arial, "Times New Roman", Times, serif;
+		line-height: 1.2;
+		-webkit-print-color-adjust: exact;
+	}
+	 @page {
+		 /* switch to landscape */
+		 size: portrait;
+		 /* set page margins */
+		 margin: 0.3cm;
+		 /* Default footers */
+	 }
+	 @bottom-left {
+	 content: " ";
+	}
+	 @bottom-right {
+	 content: counter(page) " of " counter(pages);
+	}
+	/* Fix overflow of headers and content */
+	 body {
+	 /*padding-top: 50px;*/
+	}
+	table {
+    border-collapse: collapse;
+	}
+	
+	table, th, td {
+		border: 1px solid #16365c;
+	}
+	th, td {
+		padding:5px 10px;
+	}
+	table.table { margin-bottom:28px;}
+	td.bluetext { color:#16365c;} 
+	td.whitetext { color:#fff;} 
+	.bluebg { background-color:#16365c;}
+	.bg-lightblue { background-color:#63a5ea; border-radius: 5px;}
+	.border-right { border: none; border-right:2px dotted #014e9f;}
+	td.bold { font-weight:bold;}
+	td img { 
+	vertical-align: top;
+	}
+	.no-border { border:none !important;}
+	.no-padding { padding:0 !important;}
+}
+
+@media (min-width: 1024px){
+	.modal-dialog {
+	    width: 800px;
+	}
+}
+
+/*Dashboad Onload Pop-up End*/
+@media (min-width: 992px){
+  .modal-md {
+      width: 600px;
+      margin: 0 auto;
+  }
+}

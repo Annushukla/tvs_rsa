@@ -1,0 +1,24 @@
+.giib-header, .giib-footer { display: none !important; }
+.muthoot-header, .clientfooter  { display: block!important; }
+.cover-background { background-image: none;  }
+.bg-brand {background-color: #DCE0ED !important;}
+.white-text{color:#000 !important;}
+.bg-gray{background-color: #DCE0ED !important;}
+.tab-style3 .nav-tabs li a{background-color: #DCE0ED;}
+nav .container { width: 100%; }
+.brand-text { color: #000 !important; }
+.dashboard-sidebar ul li:hover a, .dashboard-sidebar ul li.active a {border-left: 5px solid #d71920;}
+@media (max-width: 767px) {
+    .posform .row { margin-left: 0; margin-right: 0; }
+    .posform .no-padding-right { padding: 0; }
+}
+#welcome .white-text, #content_container_vehicle .white-text, .posform .white-text { color: #000 !important; }
+.posform .bg-black.white-text { color: #fff !important; }
+.posform .has-error .help-block, .posform .help-block { color: #ff0000; }
+.posform .glyphicon { display: none !important; }
+
+.choosepolicytype label span {color: #000; border: 2px solid #000;}
+.choosepolicytype label input:checked + span { background: #000; color: #fff;}
+.cust-type .white-text, .copyright.white-text, thead.white-text { color: #fff!important; }
+select {  min-height: 37px;}
+.radio, .checkbox { margin-top: 5px; margin-bottom: 5px; }

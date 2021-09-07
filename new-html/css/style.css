@@ -1,0 +1,301 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+body {font-size: .9rem; line-height: 1.2;}
+header {
+  padding: 110px 0 40px;
+  min-height: 270px;
+}
+
+section {
+  padding: 40px 0;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, 
+.col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, 
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, 
+.col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9 { float: left; }
+
+.header { position: relative;  background-image:url(../img/banner-img.jpg); background-repeat: no-repeat; background-position: center bottom; background-size: contain; background-color: #51b9d2;    }
+.header .container { z-index: 9; position: relative; }
+.header .container h1 { text-transform: uppercase; }
+.welcome-agent { margin: 0; padding: .5rem 1rem; }
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,0.7);
+  opacity: 0.7;
+  z-index: 1;
+}
+.fixed-top{ border-bottom: 1px solid #e5e5e5; }
+.copyright { font-size: 13px; }
+.copyright a { color: #fff; text-decoration: underline; }
+.navbar-light .navbar-nav .nav-link { color: rgba(0,0,0,1) }
+.dropdown-menu li { padding: .2rem 1rem ; font-size: 14px; line-height: 19px; }
+.dropdown-menu li a { display: block; color: #212529; }
+.dropdown-menu li:hover a { text-decoration: none; color: #fff;}
+.dropdown-menu li:hover { background-color: #de4019; color: #fff;}
+.btn-secondary {
+  background-color: #183883;
+  border-color: #183883;
+  font-weight: 600;
+}
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  background-color: #0e2762 !important;
+  border-color: #0e2762 !important;
+}
+.btn-red {
+  background-color: #de4019;
+  border-color: #de4019;
+  font-weight: 600;
+  color: #fff;
+}
+.btn-red:active, .btn-red:focus, .btn-red:hover {
+  background-color: #c1310e !important;
+  border-color: #c1310e !important;
+  color: #fff;
+}
+.mz-module {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.mz-module-about {
+    border: 1px solid #E6E6EA;
+    min-height: 280px;
+    padding: 10px;
+    background-color: #EFEFF1;
+}
+
+.mz-module-about h3 {
+	font-weight: 500;
+	font-size: 14px;
+	 text-transform: uppercase; 
+	color: #424242;
+	/* letter-spacing: 2px; */
+	margin-bottom: 10px;
+}
+
+.dark-bg .mz-module-about h3 {
+	color: #FFFFFF;
+}
+.mz-module-about a:hover{ text-decoration: none; }
+.mz-module-about p {
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 22px;
+	color: #848484;
+}
+.mz-module-button {
+	background-color: #183883;
+	padding: 15px 15px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 12px;
+	display: block;
+	position: absolute;
+	bottom: -30px;
+	left: 10px;
+	right: 10px;
+	opacity: 0;
+	color: #fff;
+	-webkit-transition:all .3s;
+	-moz-transition:all .3s;
+	transition:all .3s;
+}
+.mz-module:hover .mz-module-button {
+	bottom: 10px;
+	opacity: 1;
+}
+.mz-module-button:hover {
+	background-color: #de4019;
+	color: #fff;
+	text-decoration: none;
+}
+
+.mz-module-button {
+	color: #fff;
+}
+.ot-img img { width: 100%; margin-bottom: 15px; -webkit-transition:all .3s;
+	-moz-transition:all .3s;
+	transition:all .3s; }
+
+@media (max-width: 768px) {
+	.copyright span { display: block; }
+	.copyright i { display: none; }
+}
+
+.content {
+    border: 1px solid #E6E6EA;
+    padding: 20px;
+    background-color: #EFEFF1;
+}
+h3 {
+    color: #47474C;
+    font-size: 24px;
+    font-weight: 600;
+}
+.sectionhead {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #de4019; 
+    padding: .6rem 3rem .6rem 1rem; 
+  	display: inline-block;
+  	position: relative;
+}
+.sectionhead:before {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background: #de4019;
+    transform-origin: bottom left;
+    -ms-transform: skew(-30deg, 0deg);
+    -webkit-transform: skew(-30deg, 0deg);
+    transform: skew(-30deg, 0deg);
+}
+.sectionhead span {z-index: 1; position: relative;}
+.form-group.required .control-label:after {
+  content:"*";
+  color:#ff0000;
+  padding-left: 2px;
+  font-weight: bold;
+}
+
+input.form-control[type="file"] {
+  padding: 0.150rem .30rem;
+}
+.plandetails-wrap {
+  display: flex;
+  flex-flow: row wrap;
+}
+div.chooseplan {
+  flex: 1;
+}
+.chooseplan input[type="radio"] {
+  display: none;
+}
+
+.chooseplan label {
+  height: 100%;
+  display: block;
+  background: white;
+  border: 2px solid hsla(150, 75%, 50%, 1);
+  border-radius: 20px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  box-shadow: 0px 3px 10px -2px hsla(150, 5%, 65%, 0.5);
+  position: relative;
+  cursor: pointer;
+}
+
+.chooseplan input[type="radio"]:checked + label {
+  background: hsla(150, 75%, 50%, 1);
+  color: hsla(215, 0%, 100%, 1);
+  box-shadow: 0px 0px 20px hsla(150, 100%, 50%, 0.75);
+}
+.chooseplan input[type="radio"]:checked + label .fa-square-o:before {
+    content: "\f046";
+}
+/* The container */
+.radio-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radio-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  display: none;
+}
+
+/* Create a custom radio button */
+.radio-container .checkmark {
+  position: absolute;
+  top: 0;
+  left: 40%;
+  height: 20px;
+  width: 20px;
+  background-color: rgb(24,56,131,0.6);
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radio-container:hover input ~ .checkmark {
+  background-color: rgb(24,56,131,0.8);
+}
+
+/* When the radio button is checked, add a blue background */
+.radio-container input:checked ~ .checkmark {
+  background-color: #de4019;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.radio-container .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio-container .checkmark:after {
+ 	top: 6px;
+	left: 6px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+.mp-error-msg { background-color: #f00; padding:0 10px; border-radius: 5px; color: #fff; font-size: 10px; line-height:19px; position: relative; }
+span.mp-error-msg { display: inline-block; margin:3px;  }
+.mp-error-msg.toparrow:after, .mp-error-msg.toparrow:before {
+    bottom: 100%;
+    left: 10%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.mp-error-msg.toparrow:after {
+    border-color: rgba(255, 0, 0, 0);
+    border-bottom-color: #ff0000;
+    border-width: 4px;
+    margin-left: -4px;
+}
+.mp-error-msg:before {
+    border-color: rgba(255, 0, 0, 0);
+    border-bottom-color: #ff0000;
+    border-width: 4px;
+    margin-left: -4px;
+}
+.mp-error-msg.toparrow.centerarrow:after, .mp-error-msg.toparrow.centerarrow:before{left: 50%}
